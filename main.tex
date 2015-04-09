@@ -28,6 +28,7 @@
 \usepackage[siunitx]{circuitikz} % Para colocar desenho de circuitos
 \usepackage{multirow} % Para colocar celulas aglutinadas em tabelas
 \usepackage{pgfplots} % Para fazer gráficos
+\usepackage{framed} % Para fazer boxes
 
 
 %\include{def-timeline}
@@ -51,6 +52,9 @@
 \begin{titlepage}
 
 \newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
+%\theoremstyle{definition}
+\newtheorem{exemplo}{Exemplo}[section]
+
 
 \center % Center everything on the page
  
@@ -134,6 +138,8 @@ Luiz Augusto Barroso
 %\include{aula1}
 %\include{aula2}
 \include{aula3}
+%\include{aula4}
+%\include{aula5}
 
 %\bibliographystyle{apalike}
 %\bibliography{bib_apostila}
