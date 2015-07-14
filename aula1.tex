@@ -1,4 +1,4 @@
-\section{Aula 1}
+\section{Conceitos Básicos}
 
 \subsection{Introdução}
 
@@ -20,7 +20,7 @@ Mas não basta um plano contendo apenas a demanda imediata; a expansão do siste
 \item Proteção e estabilidade do sistema
 \end{itemize}
 
-O diagrama apresentado na figura \ref{fig:Horizontes-de-planejamento} mostra as diferentes etapas relacionando com seus horizontes de planejamento, e seu nível de detalhamento. Nota-se que quanto menor o horizonte de tempo, maior deve ser o nível de detalhamento necessário para a correta operação. Por exemplo, não faz sentido discutir despacho econômico quanto lidamos com projetos de instalação de novas usinas para aumento da capacidade.
+O diagrama apresentado na figura \ref{fig:Horizontes-de-planejamento} mostra as diferentes etapas relacionando com seus horizontes de planejamento, e seu nível de detalhamento. Nota-se que quanto menor o horizonte de tempo, maior deve ser o nível de detalhamento necessário para a correta operação. Por exemplo, não faz sentido discutir despacho econômico quando lidamos com projetos de instalação de novas usinas para aumento da capacidade.
 
 \begin{figure}[h]
 \begin{centering}
@@ -66,7 +66,7 @@ Mas no que se consiste exatamente o mercado de energia?
 
 Assim como no país fictício citado anteriormente, em todos os países a implantação inicial
 da rede elétrica foi coordenada pela mesma instituição:
-no caso, o governo. Isso mudou quando o Chile implantou o primeiro mercado de energia, em 1972, em que empresas vendiam a energia produzida por elas para as distribuidoras, por um preço determinado pelo mercado. Até então, todas as estapas do diagrama apresentado acima eram controladas pelo estado.
+no caso, o governo. Isso mudou quando o Chile implantou o primeiro mercado de energia, em 1972, em que empresas vendiam a energia produzida por elas para as distribuidoras, por um preço determinado pelo mercado. Até então, todas as etapas do diagrama apresentado acima eram controladas pelo estado.
 Assim, ao invés de ter um processo físico coordenando quanto cada empresa produz, é possível coordenar as quantidades fornecidas através da definição dos preços.
 Caso os preços definidos sejam bem calibrados e não haja imperfeições
 de mercado, é possível mostrar que as usinas fornecerão energia na
@@ -134,11 +134,10 @@ sobre capacitores e fluxos de potência.
 \subsection{Revisão Otimização}
 Esta sessão tem como objetivo apresentar os conceitos básicos de otimização que serão utilizados no decorrer do curso. Um modelo de otimização consiste em encontrar o valor máximo (mínimo) de uma \textbf{função objetivo}, por exemplo, o custo de geração de energia. Esta função possui um \textbf{vetor de variáveis de decisão} e é limitada por uma série de outras funções chamadas \textbf{restrições}.
 
-Suponha que você é um dono de uma fábrica de móveis e deve decidir quais móveis produzir afim de obter o maior lucro possível. A fábrica produz armários e berços, que são representados pelas letras $A$ e $B$ respectivamente. No entanto, a quantidade produzida é limitada pelo estoque de matéria prima da fábrica, sendos estas madeira e ferro, representadas por $M$ e $F$. Sabemos que a receita líquida de um armário é de 4 reais e a do berço de 3 reais. Além disso, para se produzir um armário são necessárias 2 unidades de ferro e 1 unidade de madeira, e para o berço 1 unidade de ferro e 2 unidades de madeira. A fabrica possui 4 unidades de cada insumo em estoque. O problema pode se resumido em uma \textbf{matriz de tecnologia} apresentada na tabela \ref{tabela1}
+Suponha que você é um dono de uma fábrica de móveis e deve decidir quais móveis produzir afim de obter o maior lucro possível. A fábrica produz armários e berços, que são representados pelas letras $A$ e $B$ respectivamente. No entanto, a quantidade produzida é limitada pelo estoque de matéria prima da fábrica, sendos estas madeira e ferro, representadas por $M$ e $F$. Sabemos que a receita líquida de um armário é de 4 reais e a do berço de 3 reais. Além disso, para se produzir um armário são necessárias 2 unidades de ferro e 1 unidade de madeira, e para o berço 1 unidade de ferro e 2 unidades de madeira. A fabrica possui 4 unidades de cada insumo em estoque. O problema pode se resumido em uma \textbf{matriz de tecnologia} apresentada na tabela \ref{tabela1}.
 
 \begin{table}[H]
 \begin{center}
-\label{tabela1}
 
 \begin{tabular}{l|l|l|ll}
                & Armário & Berço & Estoque &  \\ \cline{1-4}
@@ -147,6 +146,7 @@ Madeira        & 1       & 2     & 4       &  \\ \cline{1-4}
 Lucro Marginal & 4       & 3     &         & 
 \end{tabular}
 \caption{Matriz de Tecnologia da Fábrica}
+\label{tabela1}
 \end{center}
 \end{table}
 
@@ -161,9 +161,9 @@ A função objetivo é aquela que desejamos maximizar, no caso, o lucro. As vari
 
 Formulação do problema:
 \begin{itemize}
-\item Variáveis de decisão: quantidade a produzir de cada produto $x_{A}$e
+\item Variáveis de decisão: quantidade a produzir de cada produto $x_{A}$ e
 $x_{B}$.
-\item Função objetivo$f(x_{A},x_{B})=4x_{A}+3x_{B}$
+\item Função objetivo $f(x_{A},x_{B})=4x_{A}+3x_{B}$
 \item Restrições:
 
 
@@ -215,7 +215,7 @@ O conjunto de pontos viáveis pode ser encontrado combinando as duas figuras e l
 
 \end{figure}
 
-Todos os pontos que estão na área verde da figura \ref{fig:pl3} são factíveis para a solução do nosso problema de otimização, porém apenas um deles é aquele que maximiza o lucro. Esta área é chamada de \textbf{poliedro}. Vamos encontrar qual o ponto ótimo utilizando o \textbf{gradiente}\footnote{Gradiente é o vetor das derivadas parciais da função objetivo.} da função objetivo para ver em qual direção e cresce mais rápido. Como se trata de uma função linear, o gradiente é constante e igual ao vetor $[4,3]$, representado na figura \ref{fig:pl4}.
+Todos os pontos que estão na área verde da figura \ref{fig:pl3} são factíveis para a solução do nosso problema de otimização, porém apenas um deles é aquele que maximiza o lucro. Esta área é chamada de \textbf{poliedro}. Vamos encontrar qual o ponto ótimo utilizando o \textbf{gradiente}\footnote{Gradiente é o vetor das derivadas parciais da função objetivo.} da função objetivo para ver em qual direção que cresce mais rápido. Como se trata de uma função linear, o gradiente é constante e igual ao vetor $[4,3]$, representado na figura \ref{fig:pl4}.
 
 \begin{figure}[H]
 \begin{centering}
@@ -285,7 +285,7 @@ Forma compacta matricial
 \end{aligned}
 \end{equation*}
 
-Forma extensa
+Forma canônica,
 
 \begin{equation*}
 \begin{aligned}
@@ -293,7 +293,7 @@ Forma extensa
 & & \sum_{j=1}^{n}c_{j}\cdot x_{j} \\
 & \text{s.a}
 & &\sum_{j=1}^{n}a_{ij}\cdot x_{j}\leq b_{i},\qquad\forall i=1,...,m\\
-& & & x_j \geq0\qquad\forall j=1,...,n
+& & & x_j \geq0\qquad\forall j=1,...,n.
 \end{aligned}
 \end{equation*}
 
@@ -319,14 +319,14 @@ As soluções viáveis do problema dual são maiores ou iguais à solução do p
 Voltando para o exemplo do problema de maximização do lucro da fábrica de móveis, lembre-se que ele era representado da seguinte forma:
 
 \begin{align}
-    & \underset{x\geq0}{\text{maximizar}} \hspace{1cm} 4x_A+3x_B \label{eq1} \\
-    & \text{s.a}  \hspace{2.2cm} 2x_A+x_B \leq 4; \label{eq2} \\
-    &             \hspace{2.65cm} x_A+2x_B\leq 4, \label{eq3}
+    & \underset{x\geq0}{\text{maximizar}} \hspace{1cm} 4x_A+3x_B \label{eq4} \\
+    & \text{s.a}  \hspace{2.2cm} 2x_A+x_B \leq 4; \label{eq5} \\
+    &             \hspace{2.65cm} x_A+2x_B\leq 4, \label{eq6}
 \end{align}
 
-Imagine que madeira e ferro estejam em falta no mercado, e que um comerciante deseja comprar o nosso estoque. Naturalmente, aceitaremos valores \todo{Revisar  valores de que}que, no total, sejam superiores ao nosso lucro fabricando os berços e armários. O problema do comerciante é minimizar o valor pago pelos nosso insumos levando em conta que nós só venderemos se o valor pago for maior do que o nosso lucro com a venda de berços e armários. As variáves de decisão passam então a ser os preços dos insumos (madeira e ferro). O problema do comerciante é um problema dual do nosso problema de máximização do lucro. 
+Imagine que madeira e ferro estejam em falta no mercado, e que um comerciante deseja comprar o nosso estoque. Naturalmente, aceitaremos valores \todo{Revisar  valores de que}que, no total, sejam superiores ao nosso lucro fabricando os berços e armários. O problema do comerciante é minimizar o valor pago pelos nossos insumos levando em conta que nós só venderemos se o valor pago for maior do que o nosso lucro com a venda de berços e armários. As variáveis de decisão passam então a ser os preços dos insumos (madeira e ferro). O problema do comerciante é um problema dual do nosso problema de maximização do lucro. 
 
-Vamos montar o problema do comerciante na forma de programação linear. A solução ótima do exemplo atende todas as restrições então, ao multiplicarmos a restrição \ref{eq2} por 3, obteremos a seguinte inequação, válida para todos os pontos viáveis.
+Vamos montar o problema do comerciante na forma de programação linear. A solução ótima do exemplo atende todas as restrições então, ao multiplicarmos a restrição \ref{eq4} por 3, obteremos a seguinte inequação, válida para todos os pontos viáveis.
 
 \begin{equation}
 6x_{A}+3x_{B}\leq12
@@ -335,7 +335,7 @@ Vamos montar o problema do comerciante na forma de programação linear. A solu�
 
 Todos os coeficientes da desigualdade acima são maiores ou iguais do que seus respectivos coeficientes na função objetivo do problema de máximização de lucro, portanto o lucro será sempre menor do que 12.
 
-Se fizermos uma combinação linear positiva das restrições (\ref{eq2}) e (\ref{eq3}), multiplicando-as pelo preço de cada insumo, representados por $y_A$ e $y_B$, a desigualdade será valida para todos os pontos que atendem às restrições originais:
+Se fizermos uma combinação linear positiva das restrições (\ref{eq4}) e (\ref{eq5}), multiplicando-as pelo preço de cada insumo, representados por $y_A$ e $y_B$, a desigualdade será valida para todos os pontos que atendem às restrições originais:
 
 \begin{table}[h]
 \begin{center}
@@ -348,6 +348,7 @@ Se fizermos uma combinação linear positiva das restrições (\ref{eq2}) e (\re
 \end{tabular}
 \end{center}
 \end{table}
+
 Assumindo os valores $y_{A}=5/3$ e $y_{B}=2/3$, por exemplo, obteremos um
 limite superior igual a $28/3$ , que sabemos ser o máximo do problema
 da maximização do lucro. Isso nos mostra que o limite superior obtido por essa
@@ -387,9 +388,9 @@ Assim, queremos minimizar o limite superior, mexendo nos multiplicadores
 $y_{i}$, sujeita a esses multiplicadores gerarem um limite superior:
 
 \begin{align}
-    & \underset{y\geq0}{\text{minimizar}} \hspace{1cm} 4y_A+4y_B \label{eq1} \\
-    & \text{s.a}  \hspace{2.2cm} 2y_A+y_B \geq 4; \label{eq2} \\
-    &             \hspace{2.65cm} y_A+2y_B\geq 3, \label{eq3}
+    & \underset{y\geq0}{\text{minimizar}} \hspace{1cm} 4y_A+4y_B \label{eq6} \\
+    & \text{s.a}  \hspace{2.2cm} 2y_A+y_B \geq 4; \label{eq7} \\
+    &             \hspace{2.65cm} y_A+2y_B\geq 3, \label{eq8}
 \end{align}
 
 O problema acima é um problema dual da programação linear da maximização do lucro. Ao mesmo tempo, ele é o problema do comerciante que deseja comprar nosso estoque. Ao solucionar o problema do comerciante (dual) encontramos os preços pelos quais seriamos indiferentes entre produzir móveis ou vender insumos. A figura \ref{pldual1} mostra a solução do problema dual de forma análoga à que fizemos para o problema primal. 
@@ -417,9 +418,9 @@ Tem a seguinte representação dual:
 \begin{equation*}
 \begin{aligned}
 & \underset{y\geq0}{\text{minimizar}}
-& & b^{T}y \\
+& & y^{T}b \\
 & \text{s.a}
-& & Ay \leq c.
+& & Ay^{T} \geq c.
 \end{aligned}
 \end{equation*}
 
@@ -471,7 +472,7 @@ F(x)=p(X\leq x)=\frac{1}{6}x,~~~x\in [1,2,3,4,5,6]
 
 Por convensão, usamos $f$ minúsculo para a função densidade e $F$ maiúsculo para a função acumulada. Além disso, o $X$ maiúsculo representa a variável aleatória do dado, e o $x$ minúsculo representa uma realização da mesma. Podemos escrever $p(X\leq 3)=\frac{1}{2}$, por exemplo. 
 
-Por último, é interessante calcular a média e a variância das distribuições de probabilidade. A média é uma medida de \textbf{tendência central} e a variância mede \textbf{dispersão} em torno da média. 
+Por último, é interessante calcular a média e a variância das distribuições de probabilidade. A média é uma medida de \textbf{tendência central} e a variância mede a \textbf{dispersão} em torno da média. 
 
 \begin{itemize}
 \item média $=E[X]=\sum_{i=1}^n p_i x_i$
@@ -509,7 +510,7 @@ Assim como no caso discreto, podemos representar as distribuições contínuas c
 f(x)=\frac{1}{\sqrt{2 \pi \sigma^2}} e^{-\frac{(x-\mu)^2}{2\sigma^2}}
 \end{equation}
 
-A formula da distribuição acumulada da normal não é conhecida, entretanto, ela já foi toda tabelada e podemos utiliza-la sem problemas. Observe que na fórmula da normal temos os parâmetros $\mu$ e $\sigma^2$, que são respectivamente a média e a variância da distribuição. Portanto, se uma certa variável é normal e conhecemos sua média e sua variância, conhecemos também toda a distribuição desta variável.
+A fórmula da distribuição acumulada da normal não é conhecida, entretanto, ela já foi toda tabelada e podemos utiliza-la sem problemas. Observe que na fórmula da normal temos os parâmetros $\mu$ e $\sigma^2$, que são respectivamente a média e a variância da distribuição. Portanto, se uma certa variável é normal e conhecemos sua média e sua variância, conhecemos também toda a distribuição desta variável.
 
 Para calcular a média e a variância de uma distribuição contínua temos que calcular uma soma de infinitos elementos, por isto, o somatório é substituido pela integral.
 

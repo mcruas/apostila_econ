@@ -1,0 +1,714 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Enumerate
+Evolução da energia elétrica
+\end_layout
+
+\begin_layout Standard
+Objetivo da aula ter uma visão do sistema elétrico para relacionar com a
+ economia de energia e o mercado de energia
+\end_layout
+
+\begin_layout Standard
+O mercado de energia elétrica brasileiro amadureceu, depois de um pouco
+ mais de 20 anos , onde o mercado era todo verticalizado ( o governo controlava
+ a distribuição e transmissão de energia elétrica e a tarifa cobrada do
+ consumidor era toda para controlar essa cadeia) a tarifa era financiar
+ esse sistema todo (separação p geração transmissão distribuição).
+ Na decada de 90 no brasil principalmente teve uma expansão do volume de
+ recursos para o setor elétrico e precisa e demandava muito dinheiro se
+ estabeleceu um mercado diferente de outros paises, o mercado correu em
+ paralelo ao sistema de energia elétrica.
+ Para entrar no mercado bastava que fizesse uma simulação, um contratado
+ de longo prazo, algumas variaveis sistemicas eram dados e isso era facilmente
+ incorporado ou seja não era necessário ter um engenheiro eletricista trabalhand
+o no numa comercializadora para simular uma simulação de compra ou de venda
+ porque os contratos eram/são ainda basicamente financeiro.
+ A medida que passou o tempo as regras que eram frouxas principalmente que
+ envolviam o sistema elétrico ou por exemplo a forma com que o pedágio da
+ transmissão era calculado e alocado pra casa dos consumidores, o proprio
+ PLD gerando problemas ao longo do tempo, essas variaveis sistemicas a medida
+ que foram diminuindo a margem de lucro dos agentes do sistema elas começaram
+ a ganhar cada vez mais importancia.
+ Daqui pra frente um sistema muito mais eficiente em que voce tem o sistema
+ eletrico cada vez mais integrado com o mercado de energia eletrica.
+ Nesse sentido que a aula vai se encaixar com o resto do curso, falando
+ do sistema eletrica e ao longo do curso será visto com isso irá integrar
+ com os contratados que acontecem no mercado de energia eletrica.
+\end_layout
+
+\begin_layout Standard
+Guerra das correntes tive de um lado o Thomas Edison que propunha utilizar
+ um sistema de corrente de corrente continua para atender localmente as
+ cidades e as cidades deveriaam se desenvolver em torno disso com o patrocionio
+ do J.P.
+ Morgan ( um dos homens mais ricos da época) e do outro lado estava o Nicolas
+ Tesla e com o patrocinio do George Westinghouse que propoes que os sistemas
+ elétricos deveriam se expandir a partir do que eles chamavam de corrente
+ alternada.
+ Basicamente , gráfico ( constante no tempo-cc e outra corrente -ca).
+ A corrente continua em função das caracteristicas dos geradores elétricos
+ que estavam sendo construidos e principalmente do transformador esse tipo
+ de tecnologia permitia que se elevasse a tensão a niveis muitos altos de
+ maneira que a corrente diminuisse de maneira que as perdas eletricas durante
+ a transmissão diminuisse tambem.
+ As perdas eletricas que ocorrem na transmissão dependem da resistencia
+ do materia e do modulo da corrente ao quadrado.
+ Então quanto maior esse corrente maiores serão as perdas.
+ Então a ideia da corrente alternado seria elevar muito a tensão, diminuir
+ a corrente e conseguir transmitir a energia eletrica com perdar eletricas
+ menores, isso que viabilizava a utilização da corrente alternada.
+\end_layout
+
+\begin_layout Standard
+Por outro ladoEdison justificava que aumentar muito a tensão era um risco,
+ porque ele trabalhava com sistemas de 250 V que são sistemas semelhantes
+ ao que usamos hoje.
+ Então elevar muito a tensão na ordem de 1000 KV, 200 KV,500 kV que é o
+ que temos hoje, podia ser um risco muito grande.
+ 
+\end_layout
+
+\begin_layout Standard
+Para epoca o melhr sistema era o sistema de corrente alternada, porem se
+ a guerra fosse hoje, provavelmente Thomas Edison teria muito mais argumentos
+ que tinha na época ( voce tinha lampadas para serem alimentadas), hoje
+ em dia todos os equipamentos utilizam corrente contínua (celular, MP3 player,
+ computador, etc).
+ Apesar de receber na tomada corrente alternada, precisamos da fonte que
+ converte corrente alternada em corrente continua, para alimentar esses
+ aparelhos.
+ Já existem hoje alguns projetos que para baratear o uso desses equipamentos
+ no qual terá que construir uma fonte de utilizar muito mais corrente continua
+ que corrente alternada.
+ Se considerarmos que os paineis solares que temos hoje geram em corrente
+ continua, tendo um cenario onde a guerra entre correntes tendem a ficar
+ mais acirrada no futuro.
+ Se tempos uma residencia que tem no teto geração de corrente continua e
+ boa parte dos aparelhos consumindo em corrente continua a rede de corrente
+ continua passam a ser mais interessantes.Os equipamentos eólicos tambem
+ produzem alternado 
+\begin_inset Quotes eld
+\end_inset
+
+maluco
+\begin_inset Quotes erd
+\end_inset
+
+, retificam e jogam em alternado e retificar para tornar continuo.
+ Picota o sinal para ficar alternado.
+ E as linhas de corrente contínua que temos no Brasil por exemplo.
+ Nos temos varias linhas de corrente continua, agora mesmo esta sendo construido
+ uma linha de corrente continua que vem do norte até o sudeste.
+ A linha é a seguinte as linhas de corrente contínua tem custo inicial muito
+ alto, enquanto as linhas de custo alternada é crescente (FIGURA).
+ Só que o custo de corrente continua diminui com o tempo inclusive considerando
+ as perdas a ponto de em torno de 1000Km passa valer a pena trabalhar com
+ corrente contínua que com corrente alternada.
+ O custo da corrente continua é alto justamente pela geração sem em corrente
+ alternada, então tem um trabalho para convertes a corrente continua e quanto
+ chegar np final da linha converter em corrente alternada.
+ Com distancias cada vez maiores é mais vantajoso ter corrente continua
+ que corrtente alternada.
+\end_layout
+
+\begin_layout Standard
+Sistemas eletricos em corrente alternada
+\end_layout
+
+\begin_layout Standard
+Vamos conhecer os dois equipamentos que permitiram essa revolução e migração
+ da corrente contínua para corrente alternada.
+ São: gerador e transformador.
+\end_layout
+
+\begin_layout Standard
+Para iniciar o cientista ingles M.
+ Faraday realizaou a seguinte experiencia no século XIX, ele pegou uma pilha
+ ,adicionou um chave para ligar e desligar essa pilha e colocou uma bobina
+ com fios enrolados fechando o circuito que não tem nenhuma ligação com
+ a pilha .
+ E do outro lado colocou um aparelho conhecido com galvanometro que um aparelho
+ qu tem movimento quando ele detecta uma corrente elétrica., o galvanometro
+ esta conecta a uma espira do outro lado.
+ Então fechou a chave que estav inicialmente aberta, ao fechar apareceu
+ uma corrente e dado uma corrente eletrica circulando em uma espira vai
+ aparecer um campo magnético.
+ Ele percebeu que o fluxo magnético que concatena com o outro lado do experiment
+o acabava gerando uma corrente que o galvanometro detectava.
+ Ele sabia que corrente provocava fluxo mas não sabia que fluxo provocava
+ corrente então esse equipamento se movia quando ele virava a chave so que
+ depois ele voltava a posição inicial.
+ e quando eles desligava a chave as linhas de fluxos sumiam e reparava que
+ o outro equipamento movia para o outro lado.
+ Se movia pra uma lado e quando desliga se movia para outro, então ele invertia
+ o sentido.
+ Ele chegou a esse experimento porem quem formulou e explicou porque o sentido
+ da corrente mudava foi o Lenz que postulou a lei de Lens.
+ 
+\end_layout
+
+\begin_layout Standard
+Experimento de Lenz reproduzir o experimento de M.
+ Faraday só que ao inves de profuzir linhas de fluxos provocados por correntes,
+ vou colocar um imão.
+ Ele aproximou o imão da espira (injetar campo magnético na espira) e ele
+ observou que quando ele aproxima o imã da espira aparecem linhas de campo
+ de sentido contrário ao movimento que foi imposto.A medida que ele aproxima
+ aparecem linhas de campos no sentido contrário e essas linhas de campo
+ induzem essas linhas de campo a passarem corrente eletrica nessa espira.
+ Tudo para recuperar o equilibrio.
+ (FIGURA).
+ O norte é induzido pelo movimento.
+\end_layout
+
+\begin_layout Standard
+Lei de Lenz o sentido da corrente é oposto da variação do campo magnético
+ que lhe deu origem.
+\end_layout
+
+\begin_layout Standard
+Fluxo magnético será proporcional, ou seja será maior quanto maior o numero
+ de espiro, quanto maior a intensidade das linhas de campos (quanto maior
+ é o imã ou a corrente) quanto maior é a área da seção dessa espira multiplicado
+ pelo cosseno de 
+\begin_inset Formula $\Theta$
+\end_inset
+
+ ( o angulo entre as linhas de campo magnético e a linha perpendicular a
+ espira).
+ FIGURA
+\end_layout
+
+\begin_layout Standard
+Por exemplo quando 
+\begin_inset Formula $\Theta=0$
+\end_inset
+
+,fluxo máximo,
+\begin_inset Formula $\cos\Theta=1$
+\end_inset
+
+, então 
+\begin_inset Formula $\Phi=n\cdot B\cdot A$
+\end_inset
+
+ FIGURA e quando 
+\begin_inset Formula $\Theta=90^{\circ}$
+\end_inset
+
+,sem fluxos,
+\begin_inset Formula $\cos\Theta=0$
+\end_inset
+
+, então 
+\begin_inset Formula $\Phi=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+O outro experimento é ao contrário, deixando o imã fixo e fazer girar a
+ espira, o que vai acontecer? é a mesma experiencia mais trocou a função
+ dos elementos.
+ FIGURA gerador eletrico com corrente alternada.
+\end_layout
+
+\begin_layout Standard
+Agora, o fluxo neste movimento depende do tempo porque em cada hora terá
+ uma posição diferente na bolbina, n é cte ,B as linhas de campos, A area
+ da seção da bolbina e 
+\begin_inset Formula $\cos\Theta$
+\end_inset
+
+a posição da bolbina.
+ Pela lei de Lenz a hora que enjeto a variação de fluxo no tempo ela produz
+ uma tensão que é contraria ao movimento que gerou essa tensão 
+\begin_inset Formula $e(t)=\frac{\partial\Phi(t)}{\partial t}$
+\end_inset
+
+.
+ Então o fluxo e tensão será dado pela FIGURA.
+\end_layout
+
+\begin_layout Standard
+Tem que ter fluxo e variação de fluxo para ter tensão.
+\end_layout
+
+\begin_layout Standard
+Definindo
+\begin_inset Formula $\omega$
+\end_inset
+
+ como a velocidade angular da bobina.
+ Pode-se escrever:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\omega=\frac{\triangle\theta}{\triangle t}(\frac{rad}{seg})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+De outra forma:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\omega=\frac{\theta_{F}-\theta_{I}}{t_{F}-t_{I}}(\frac{rad}{seg})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Considerando:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\theta_{I}=0$
+\end_inset
+
+ e 
+\begin_inset Formula $t_{I}=0$
+\end_inset
+
+ então 
+\begin_inset Formula $\omega=\frac{\theta_{F}}{t_{F}}=\frac{\theta}{t}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Finalmente
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\theta=\omega t$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Reescrevendo a tensão:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $e(t)=-\frac{\triangle\Phi(t)}{\triangle t}=-\frac{\partial[nBA\cos(\omega t)]}{\partial t}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Assim,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Phi(t)=nBA\cos(\omega t)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $e(t)=n\omega BA\sin(\omega t)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $e(t)=E_{max}\sin(\omega t)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $E_{max}=n\omega BA$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+NA FIGURA.
+ tensão e fluxo na variação de tempo ( a tensão passa a depender em termos
+ de magnetude do campo passa a depender da frequencia).
+\end_layout
+
+\begin_layout Standard
+Definindo 
+\begin_inset Formula $f$
+\end_inset
+
+ como frequencia da rotação.
+ A frequencia de rotação descreve o numero de revoluções (voltas completas)
+ por segundo da bobina.
+\end_layout
+
+\begin_layout Standard
+Assim,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f=\frac{n\text{º revoluções (voltas completas)}}{tempo(seg)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A unidade de frequencia é p hertz.
+ Diz-se que o sistema tem um hertz se a bobina efetua uma volta completa
+ a cada segundo.
+ No Brasil o consumo em geral possui um frequencia estabelecida de 
+\begin_inset Formula $60$
+\end_inset
+
+ hertz ou 377 radianos por segundo.
+ Em outros lugares é 50 hertz.
+ Usamos 
+\begin_inset Formula $2\pi$
+\end_inset
+
+ que é uma volta completa.
+\end_layout
+
+\begin_layout Standard
+A velocidade angular da bobina e, consequentemente, da tensão é:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\omega=\frac{\triangle\theta}{\triangle t}(\frac{rad}{seg})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+De outra forma:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\omega=n\text{º revol.}(\frac{2\pi}{\triangle t})(\frac{rad}{seg})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Então:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\omega=2\pi f$
+\end_inset
+
+ então 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Phi=nBA\cos(2\pi ft)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $e(t)=(2\pi f)n\omega BA\sin(2\pi ft)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $e(t)=E_{max}\sin(2\pi ft)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Trabalhar com grandezas no tempo é chata, então é comum mudar a forma de
+ trabalhar com as grandezas no setor elétrico.
+ Já que o sistema elétrico está girando 60 hertz, então é tirada uma fotografia
+ de uum determinado ponto do sistema e congelar e tratar uma grandeza em
+ relação a outra e para isso é necessário estabelecer uma referencia e ao
+ inves que as coisas estão no dominio do tempo diz que esta no dominio da
+ frequencia e paramos de falar em tempo.
+ Então a tensão varia com um valor de tensão máxima sendo de 
+\begin_inset Formula $f=A\sin(\omega t+\theta)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Assume que tem uma frequencia e essa está todo mundo girando como se fosse
+ em 60 hertz e aquela notação.
+ Agora todas são cobrinhas com tamanho 60 hertz o unica coisa que importa
+ é o deslocamento e o tamanho da cobrinha.
+ tamanho do deslocamento viando e ao deslocamento em relação a referencia.
+\end_layout
+
+\begin_layout Standard
+Para evitar a manipulação matemática de grandezas que variam no tempo, criou-se
+ o conceito de fasor.
+ Fasor é um tipo especial de vetor, capaz de representar um função sinusoidal.
+ FIGURA
+\end_layout
+
+\begin_layout Standard
+Isto significa que as operações com fasores são semelhantes às de vetores.
+\end_layout
+
+\begin_layout Standard
+A ideia do gerador a grande sacada o que permite dev fato levar a energia
+ elétrica e um ponto para outro ponto muito distante reduzindo nesse caso
+ aumentando a tesão é o transformador de potencia.
+\end_layout
+
+\begin_layout Standard
+Envolve corrente eletrico, fluxo magnético, (mais simples e mais poderezo).
+ Ele é basicamente uma massa de ferro com um enrolamente (enrola um fio
+ em cada lado) com uma eficiencia que é maior que 90% ou seja a energia
+ perdida é pequena.
+\end_layout
+
+\begin_layout Standard
+No transformador ideal, a tensão é gerada em função do fluxo magnético variante
+ no tempo.
+ O fluxo magnético variante no tempo é gerado em função de uma corrente
+ elétrica variante no tempo.
+\end_layout
+
+\begin_layout Standard
+Se aplicar uma tensão de um lado, a tensão eletrica vai gerar uma corrente
+ que vai circular, essa corrente vai induzir um fluxo, esse fluxo não necessária
+mente o ferro é para fazer o fluxo que passa no primario concatenar com
+ o secundario.
+ Num tranformador ideal todo fluxo concatena.
+ Quando aplicar um tensão gera uma corrente ,essa corrente vai produzir
+ um fluxo e no outro lado se conectar uma carga vai aparecer uma corrente
+ elétrica.
+ 
+\end_layout
+
+\begin_layout Standard
+Matematicamente, da Lei de Faraday:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\dot{\dot{V}_{1}=-N_{1}\frac{d\Phi}{dt}}$
+\end_inset
+
+
+\begin_inset Formula $\dot{\dot{V}_{2}=-N_{2}\frac{d\Phi}{dt}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\dot{V_{i}}:$
+\end_inset
+
+ Tensão (fasorial) no terminal i;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\dot{I_{i}}:$
+\end_inset
+
+ Tensão (fasorial) no terminal i;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\dot{Ni}:$
+\end_inset
+
+ Número de espiras no terminal i;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{d\Phi}{dt}$
+\end_inset
+
+: Fluxo magnético variante no tempo.
+\end_layout
+
+\begin_layout Standard
+Assim,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{\dot{V}_{1}}{\dot{V}_{2}}=\frac{N_{1}}{N_{2}}=\alpha$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\alpha$
+\end_inset
+
+: Relação de transformação.
+\end_layout
+
+\begin_layout Standard
+Se colocar 10 espirar no primário e uma espira no secundário a relação é
+ de 10.
+ Eleva a tensão no secundário para 10 vezes do primário.
+ 
+\end_layout
+
+\begin_layout Standard
+O análogo magnéticos do circuito elétrico do transformador:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Im_{1}-\Im_{2}=\Re\cdot\Phi$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Im_{1}=N_{1}\cdot\dot{I}_{1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Im_{2}=N_{2}\cdot\dot{I}_{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Onde, 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Im_{i}$
+\end_inset
+
+- Força magnetomotriz no terminal 
+\begin_inset Formula $i$
+\end_inset
+
+ (A.e);
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Phi$
+\end_inset
+
+- Fluxo magnético induzido (Wb);
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Re$
+\end_inset
+
+- Relutância do transformador (A/Wb).
+\end_layout
+
+\begin_layout Standard
+No transformador ideal, a relutância é nula.
+ Assim:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $N_{1}\cdot\dot{I}_{1}=N_{2}\cdot\dot{I}_{2}\rightarrow\frac{\dot{I}_{1}}{\dot{I}_{2}}=\frac{N_{1}}{N_{2}}=\frac{1}{\alpha}\rightarrow\dot{I}_{1}=\frac{1}{\alpha}\cdot\dot{I}_{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ps: O transformador permite reduzir a corrente elétrica nas linhas de transmissã
+o aumentando a tensão.
+ Neste caso, a energia elétrica pode ser transmitida a grandes distâncias
+ com menores perdas.
+ 
+\end_layout
+
+\end_body
+\end_document
